@@ -1,42 +1,66 @@
-# Scrimba Space Tourism Dynamic JS Website
+# Scrimba Space Tourism Website (React)
 
-An interactive, JavaScript-powered website designed to simulate a space tourism experience. This project was developed as part of the Scrimba Space Tourism course.
+An interactive and responsive **Space Tourism Website** built with **React**.  
+This project is based on the [Scrimba Frontend Developer Career Path](https://scrimba.com/learn/frontend) and follows the [Frontend Mentor Space Tourism challenge](https://www.frontendmentor.io/challenges/space-tourism-multipage-website-gRWj1URZ3).  
+
+The app demonstrates **React fundamentals**, dynamic routing, reusable components, and responsive design.
+
+---
 
 ## 🚀 Features
 
-Dynamic Content: Utilizes JavaScript to load and display content dynamically, enhancing user interaction.
+- 🌍 **Multi-page navigation** (Home, Destination, Crew, Technology)  
+- ⚛️ **Built with React Router** for smooth client-side routing  
+- 📱 **Fully responsive** across desktop, tablet, and mobile  
+- 🎨 **Modern design system** with reusable styles and components  
+- 📂 **Data-driven** UI powered by JSON content  
 
-Responsive Design: Ensures compatibility across various devices and screen sizes.
+---
 
-Interactive UI: Engages users with interactive elements and smooth transitions.
+## 🛠️ Tech Stack
 
-## 🛠️ Built With
+- **React** (functional components & hooks)  
+- **React Router** (for navigation)  
+- **CSS** (custom styles & utility classes)  
+- **Vite / Create React App** (depending on your setup)  
 
-HTML
-CSS
-JavaScript
+---
 
-## 🎨 Preview
+### 📸 Preview
 
 ![Space Tourism Preview](public/assets/preview.png)
 
-## 📌 How to Run
+---
 
-1. Clone this repo:
+#### ⚡ Getting Started
 
-   ```bash
-   git clone https://github.com/BhoomiGohil/Scrimba-Space-Tourism-Dynamic-JS-Website.git
-   ```
+### 1. Clone the Repository
 
-2. Navigate to the project directory:
+```bash
+git clone https://github.com/BhoomiGohil/Scrimba-Space-Tourism-Website-React.git
+cd Scrimba-Space-Tourism-Website-React
+```
 
-   ```bash
-   cd Scrimba-Space-Tourism-Dynamic-JS-Website
-   ```
+### 2. Install Dependencies
 
-3. Open index.html in your web browser to view the website.
+```bash
+npm install
+```
 
-📝 Acknowledgements
+### 3. Run the App
 
-Design files & project inspiration from Scrimba Course.
-Figma design reference from Frontend Mentor – Space Tourism challenge.
+```bash
+npm start
+```
+
+### 4. Build for Production
+
+```bash
+npm run build
+```
+
+🙏 Acknowledgements
+
+Scrimba for the course material and guidance
+Frontend Mentor for the design inspiration
+
