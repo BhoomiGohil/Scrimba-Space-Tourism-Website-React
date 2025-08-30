@@ -25,34 +25,34 @@ The app demonstrates **React fundamentals**, dynamic routing, reusable component
 
 ---
 
-### 📸 Preview
+## 📸 Preview
 
 ![Space Tourism Preview](public/assets/preview.png)
 
 ---
 
-#### ⚡ Getting Started
+## ⚡ Getting Started
 
-### 1. Clone the Repository
+#### 1. Clone the Repository
 
 ```bash
 git clone https://github.com/BhoomiGohil/Scrimba-Space-Tourism-Website-React.git
 cd Scrimba-Space-Tourism-Website-React
 ```
 
-### 2. Install Dependencies
+#### 2. Install Dependencies
 
 ```bash
 npm install
 ```
 
-### 3. Run the App
+#### 3. Run the App
 
 ```bash
 npm start
 ```
 
-### 4. Build for Production
+#### 4. Build for Production
 
 ```bash
 npm run build
