@@ -18,7 +18,7 @@ JavaScript
 
 ## 🎨 Preview
 
-![Space Tourism Preview](assets/preview.png)
+![Space Tourism Preview](public/assets/preview.png)
 
 ## 📌 How to Run
 
