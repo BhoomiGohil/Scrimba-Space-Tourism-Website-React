@@ -58,9 +58,9 @@ npm start
 npm run build
 ```
 
-🙏 Acknowledgements
+---
 
-Scrimba for the course material and guidance
+## 🙏 Acknowledgements
 
-Frontend Mentor for the design inspiration
+Scrimba for the course material and guidance and Frontend Mentor for the design inspiration
 
