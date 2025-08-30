@@ -22,7 +22,6 @@ The app demonstrates **React fundamentals**, dynamic routing, reusable component
 - **React** (functional components & hooks)  
 - **React Router** (for navigation)  
 - **CSS** (custom styles & utility classes)  
-- **Vite / Create React App** (depending on your setup)  
 
 ---
 
