@@ -61,5 +61,6 @@ npm run build
 🙏 Acknowledgements
 
 Scrimba for the course material and guidance
+
 Frontend Mentor for the design inspiration
 
