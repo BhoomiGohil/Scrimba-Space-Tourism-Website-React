@@ -24,7 +24,7 @@ const Home = () => {
 
   return (
     <div
-      className="main"
+      className="main align-end"
       style={{
         background: `url(${bg}) no-repeat top/cover`,
         width: "100%",
