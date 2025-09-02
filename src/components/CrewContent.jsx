@@ -15,13 +15,13 @@ const CrewContent = () => {
   let activeCrew = crew[activeIndex];
 
   return (
-    <div className="content-grid crew flex align-stretch justify-between">
+    <div class="content-grid crew">
       <h5 class="numbered-title" style={{ gridColumn: "2/4" }}>
         <span>02</span>MEET YOUR CREW
       </h5>
-      <div className="content-block crew flex column">
+      <div class="content-block crew column">
         <div
-          className="flex column justify-center"
+          class="flex-justify-center column"
           style={{ gap: "2.5rem", flexGrow: "1" }}
         >
           <div className="flex column">
@@ -50,7 +50,7 @@ const CrewContent = () => {
           })}
         </div>
       </div>
-      <div className="content-image crew flex justify-center align-end">
+      <div class="content-image crew">
         <img src={activeCrew.images.webp} />
       </div>
     </div>

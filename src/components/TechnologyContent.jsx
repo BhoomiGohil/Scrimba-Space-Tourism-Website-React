@@ -20,7 +20,7 @@ const TechnologyContent = () => {
 
   var activeTechnology = technology[activeIndex];
   return (
-    <div className="content-grid technology flex align-center justify-between">
+    <div className="content-grid technology grid-align-center">
       <h5 className="numbered-title" style={{ gridColumn: "2/4" }}>
         <span>03</span> Space Launch 101
       </h5>
@@ -31,13 +31,13 @@ const TechnologyContent = () => {
         />
       </div>
       <div className="content-block-container flex">
-        <div className="large-pagination-container flex column">
+        <div class="large-pagination-container flex-between-center column">
           {technology.map((element, index) => {
             const isActive = index === activeIndex;
             return (
               <div
                 key={index}
-                className="large-pagination fs-4 ff-bellefair flex justify-center align-center"
+                className="large-pagination fs-4 ff-bellefair flex-center-center"
                 style={isActive ? activeStyle : inActiveStyle}
                 onClick={() => {
                   setActiveIndex(index);
@@ -48,7 +48,7 @@ const TechnologyContent = () => {
             );
           })}
         </div>
-        <div className="content-block technology flex column justify-center">
+        <div class="content-block technology flex column">
           <h4 className="fs-4 ff-bellefair uppercase text-light">
             THE TERMINOLOGY…
           </h4>

@@ -5,15 +5,15 @@ const Navigation = () => {
   var { navItems } = data;
 
   return (
-    <div className="navigation flex align-center justify-between">
+    <div class="navigation flex-between-center">
       <img src={"assets/shared/logo.svg"} className="logo" />
-      <div className="navigation-divider divider-white"></div>
+      <div className="navigation-divider"></div>
       <input type="checkbox" id="navigation-mobile-menu-button" />
       <label
         htmlFor="navigation-mobile-menu-button"
         className="navigation-mobile-menu"
       ></label>
-      <div className="navigation-menu-container flex align-center">
+      <div className="navigation-menu-container flex-align-center">
         {navItems.map((element, index) => (
           <NavLink
             key={index}
