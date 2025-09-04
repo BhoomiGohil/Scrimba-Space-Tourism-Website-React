@@ -3,11 +3,10 @@ import { useEffect, useState } from "react";
 import Navigation from "../components/Navigation";
 import Hero from "../components/Hero";
 
-import desktop from "../assets/home/background-home-desktop.jpg";
-import tablet from "../assets/home/background-home-tablet.jpg";
-import mobile from "../assets/home/background-home-mobile.jpg";
-
 const Home = () => {
+  const desktop = "/assets/home/background-home-desktop.jpg";
+  const tablet = "/assets/home/background-home-tablet.jpg";
+  const mobile = "/assets/home/background-home-mobile.jpg";
   const [bg, setBg] = useState(desktop);
 
   useEffect(() => {

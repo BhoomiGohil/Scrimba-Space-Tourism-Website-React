@@ -27,7 +27,7 @@ The app demonstrates **React fundamentals**, dynamic routing, reusable component
 
 ## 📸 Preview
 
-![Space Tourism Preview](public../assets/preview.png)
+![Space Tourism Preview](public/assets/preview.png)
 
 ---
 
