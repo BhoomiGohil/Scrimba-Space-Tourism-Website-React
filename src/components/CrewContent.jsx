@@ -51,7 +51,7 @@ const CrewContent = () => {
         </div>
       </div>
       <div className="content-image crew">
-        <img src={activeCrew.images.webp} />
+        <img src={"../" + activeCrew.images.webp} />
       </div>
     </div>
   );

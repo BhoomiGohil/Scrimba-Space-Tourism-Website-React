@@ -3,11 +3,11 @@ import { useEffect, useState } from "react";
 import Navigation from "../components/Navigation";
 import CrewContent from "../components/CrewContent";
 
-import desktop from "../assets/crew/background-crew-desktop.jpg";
-import tablet from "../assets/crew/background-crew-tablet.jpg";
-import mobile from "../assets/crew/background-crew-mobile.jpg";
-
 const Crew = () => {
+  const desktop = "/assets/crew/background-crew-desktop.jpg";
+  const tablet = "/assets/crew/background-crew-tablet.jpg";
+  const mobile = "/assets/crew/background-crew-mobile.jpg";
+
   const [bg, setBg] = useState(desktop);
 
   useEffect(() => {

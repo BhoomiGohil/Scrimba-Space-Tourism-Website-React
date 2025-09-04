@@ -3,11 +3,10 @@ import { useEffect, useState } from "react";
 import Navigation from "../components/Navigation";
 import TechnologyContent from "../components/TechnologyContent";
 
-import desktop from "../assets/technology/background-technology-desktop.jpg";
-import tablet from "../assets/technology/background-technology-tablet.jpg";
-import mobile from "../assets/technology/background-technology-mobile.jpg";
-
 const Technology = () => {
+  const desktop = "/assets/technology/background-technology-desktop.jpg";
+  const tablet = "/assets/technology/background-technology-tablet.jpg";
+  const mobile = "/assets/technology/background-technology-mobile.jpg";
   const [bg, setBg] = useState(desktop);
 
   useEffect(() => {
