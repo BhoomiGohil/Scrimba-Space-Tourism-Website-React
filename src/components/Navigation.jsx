@@ -1,13 +1,15 @@
 import { NavLink } from "react-router-dom";
 import data from "../data.json";
 
+import logo from "../assets/shared/logo.svg";
+
 const Navigation = () => {
   var { navItems } = data;
 
   return (
-    <div class="navigation flex-between-center">
-      <img src="/assets/shared/logo.svg" className="logo" />
-      <div className="navigation-divider"></div>
+    <div className="navigation flex-between-center">
+      <img src={logo} className="logo" />
+      <div className="navigation-divider divider-white"></div>
       <input type="checkbox" id="navigation-mobile-menu-button" />
       <label
         htmlFor="navigation-mobile-menu-button"
@@ -21,7 +23,7 @@ const Navigation = () => {
             className={({ isActive }) =>
               `navigation-menu ${
                 isActive ? "active" : ""
-              } flex align-center fs-8 ff-barlow-cond letter-spacing-2 uppercase`
+              } flex-align-center fs-8 ff-barlow-cond letter-spacing-2 uppercase`
             }
           >
             <span className="bold letter-spacing-207">

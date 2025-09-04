@@ -530,6 +530,10 @@ select {
   min-height: 100vh;
 }
 
+.main.index {
+  align-items: end;
+}
+
 /**********************/
 
 /* ------------------ */
@@ -695,6 +699,10 @@ select {
 
   .main {
     align-items: start;
+  }
+
+  .main.index {
+    align-items: center;
   }
 
   /* ------------------ */
@@ -948,6 +956,10 @@ select {
 
   .main {
     align-items: start;
+  }
+
+  .main.index {
+    align-items: center;
   }
 
   /* ------------------ */

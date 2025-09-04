@@ -31,7 +31,7 @@ const TechnologyContent = () => {
         />
       </div>
       <div className="content-block-container flex">
-        <div class="large-pagination-container flex-between-center column">
+        <div className="large-pagination-container flex-between-center column">
           {technology.map((element, index) => {
             const isActive = index === activeIndex;
             return (
@@ -48,7 +48,7 @@ const TechnologyContent = () => {
             );
           })}
         </div>
-        <div class="content-block technology flex column">
+        <div className="content-block technology flex column">
           <h4 className="fs-4 ff-bellefair uppercase text-light">
             THE TERMINOLOGY…
           </h4>
