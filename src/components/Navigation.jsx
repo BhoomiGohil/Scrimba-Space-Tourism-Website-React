@@ -6,7 +6,7 @@ const Navigation = () => {
 
   return (
     <div class="navigation flex-between-center">
-      <img src="assets/shared/logo.svg" className="logo" />
+      <img src="/assets/shared/logo.svg" className="logo" />
       <div className="navigation-divider"></div>
       <input type="checkbox" id="navigation-mobile-menu-button" />
       <label
