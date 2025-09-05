@@ -823,10 +823,6 @@ select {
     grid-column: 1 / 4 !important;
   }
 
-  .main {
-    position: relative;
-  }
-
   .navigation {
     height: auto;
     padding: 1.5rem;
@@ -920,6 +916,7 @@ select {
 
   .main {
     align-items: start;
+    position: relative;
   }
 
   .main.index {
