@@ -35,7 +35,7 @@ const DestinationContent = () => {
             return (
               <div
                 key={index}
-                className="tabs-menu flex fs-8 ff-barlow-cond letter-spacing-2 uppercase text-white"
+                className="tabs-menu flex fs-8 ff-barlow-cond letter-spacing-2 uppercase"
                 style={isActive ? activeStyle : inActiveStyle}
                 onClick={() => {
                   setActiveIndex(index);
@@ -47,9 +47,9 @@ const DestinationContent = () => {
           })}
         </div>
         <div className="flex column">
-          <h1 className="content-name fs-2 ff-bellefair uppercase text-white">
+          <h2 className="content-name fs-2 ff-bellefair uppercase text-white">
             {activeDestination.name}
-          </h1>
+          </h2>
           <p className="content-description fs-9 ff-barlow text-light">
             {activeDestination.description}
           </p>
