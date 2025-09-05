@@ -49,7 +49,10 @@ const TechnologyContent = () => {
           })}
         </div>
         <div className="content-block technology flex column">
-          <h4 className="fs-4 ff-bellefair uppercase text-light">
+          <h4
+            className="fs-4 ff-bellefair uppercase text-light"
+            style={{ opacity: "50.42%" }}
+          >
             THE TERMINOLOGY…
           </h4>
           <div className="flex column">
