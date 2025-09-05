@@ -454,6 +454,7 @@ select {
 
 .tabs-menu.active {
   border-color: hsl(var(--clr-white));
+  color: hsl(var(--clr-white));
 }
 
 .button {
