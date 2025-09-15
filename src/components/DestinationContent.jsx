@@ -15,11 +15,11 @@ const DestinationContent = () => {
   var activeDestination = destinations[activeIndex];
 
   return (
-    <div className="content-grid destination grid-align-center">
+    <div id="contentDestination" className="content-grid grid destination">
       <h5 className="numbered-title" style={{ gridColumn: "2/4" }}>
         <span>01</span> PICK YOUR DESTINATION
       </h5>
-      <div className="content-image destination">
+      <div className="content-image destination align-self-center">
         <img
           src={activeDestination.images.webp}
           style={{
@@ -28,8 +28,8 @@ const DestinationContent = () => {
           }}
         />
       </div>
-      <div className="content-block destination column">
-        <div className="tabs-menu-container">
+      <div className="content-block destination flex column align-self-center">
+        <div className="tabs-menu-container flex">
           {destinations.map((element, index) => {
             const isActive = index === activeIndex;
             return (

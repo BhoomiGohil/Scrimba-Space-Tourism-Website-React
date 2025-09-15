@@ -1,6 +1,8 @@
+import { Link } from "react-router-dom";
+
 const Hero = () => {
   return (
-    <div className="content-grid index grid-align-center">
+    <div id="home" className="content-grid grid index">
       <div className="content-block index flex column">
         <h5 className="fs-5 ff-barlow-cond letter-spacing-4 uppercase text-light">
           So, you want to travel to
@@ -13,10 +15,13 @@ const Hero = () => {
           experience!
         </p>
       </div>
-      <div className="content-button index flex-justify-end">
-        <a className="button flex-center-center bg-white fs-4 ff-bellefair text-dark uppercase">
+      <div className="content-button index flex justify-self-end align-self-center">
+        <Link
+          to="/destination"
+          className="button flex justify-center align-center bg-white fs-4 ff-bellefair text-dark uppercase"
+        >
           Explore
-        </a>
+        </Link>
       </div>
     </div>
   );
