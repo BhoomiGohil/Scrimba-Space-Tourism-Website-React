@@ -5,8 +5,6 @@ import Destination from "./Destination";
 import Crew from "./Crew";
 import Technology from "./Technology";
 
-import "../index.css";
-
 function App() {
   return (
     <Router>

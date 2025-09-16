@@ -355,7 +355,6 @@ select {
 .logo {
   width: 3rem;
   height: 3rem;
-  background-image: url(./assets/shared/logo.svg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -835,6 +834,8 @@ select {
     inset: 0 0 0 20%;
     z-index: 100;
     padding: 7rem 0 7rem 2rem;
+    transform: translate(100%);
+    transition: none;
   }
 
   .navigation-menu {

@@ -16,7 +16,7 @@ module.exports = {
     }),
     new CopyPlugin({
       patterns: [
-        { from: "public/assets", to: "assets" }, // copies public/assets to dist/assets
+        { from: "public/assets", to: "assets" }, // keeps your assets
       ],
     }),
   ],

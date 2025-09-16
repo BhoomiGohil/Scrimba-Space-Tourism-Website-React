@@ -3,13 +3,19 @@ import data from "../data.json";
 import { useState } from "react";
 
 const Navigation = () => {
+  const logo = "/assets/shared/logo.svg";
+
   var { navItems } = data;
 
   var [visible, setVisible] = useState(false);
 
   return (
     <div className="navigation flex justify-between align-center">
-      <a href="/index.html" className="logo"></a>
+      <a
+        href="/index.html"
+        className="logo"
+        style={{ backgroundImage: `url(${logo})` }}
+      ></a>
       <div className="navigation-divider divider-white"></div>
       <div
         className="navigation-menu-container flex justify-center"

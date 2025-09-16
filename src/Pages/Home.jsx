@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 
 import Navigation from "../components/Navigation";
-import Hero from "../components/Hero";
+import HomeContent from "../components/HomeContent";
 
 const Home = () => {
   const desktop = "/assets/home/background-home-desktop.jpg";
@@ -31,7 +31,7 @@ const Home = () => {
       }}
     >
       <Navigation />
-      <Hero />
+      <HomeContent />
     </div>
   );
 };
